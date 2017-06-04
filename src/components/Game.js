@@ -133,6 +133,7 @@ export class Game extends Component {
   resetGame = () => this.setState(Game.initialState())
   selectNumber = (clickedNumber) => {
     if(this.state.selectedNumbers.indexOf(clickedNumber) >= 0) { return; }
+    if(this.state.usedNumbers.indexOf(clickedNumber) >= 0) { return; }
     this.setState( prevState => ({
       answerIsCorrect: null,
       selectedNumbers: prevState.selectedNumbers.concat(clickedNumber)
