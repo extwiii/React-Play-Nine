@@ -1,11 +1,14 @@
 # React-Play-Nine
 React.js Play Nine Game
 
+Live Demo: [Play Nine Game](https://extwiii-react-play-nine.herokuapp.com/)
+
 Features
 --------
 - React.js 
 - Create React App
-- bootstrap
+- Bootstrap
+- Font-Awesome
 - Heroku
 
 Prerequisites
